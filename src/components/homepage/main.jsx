@@ -110,7 +110,7 @@ const main = () => {
           alt="Group 8"
           className=" rounded-lg "
         />
-        <h1>T-SHIRT WITH TAPE DETAILS</h1>
+        <h1 className=' font-semibold'>T-SHIRT WITH TAPE DETAILS</h1>
 </div>
 <div className='  m-auto'>
 <img
@@ -118,7 +118,7 @@ const main = () => {
           alt="Group 8"
           className=" rounded-lg"
         />
-        <h1>T-SHIRT WITH TAPE DETAILS</h1>
+        <h1 className=' font-semibold'>T-SHIRT WITH TAPE DETAILS</h1>
 </div>
 <div className='  m-auto'>
 <img
@@ -134,7 +134,7 @@ const main = () => {
           alt="Group 8"
           className=" rounded-lg"
         />
-        <h1>T-SHIRT WITH TAPE DETAILS</h1>
+        <h1 className=' font-semibold'>T-SHIRT WITH TAPE DETAILS</h1>
 </div>
 
 </div>
