@@ -421,7 +421,7 @@ const main = () => {
 
             </p>
           </div>
-          <div className=' flex-row gap-20'>
+          <div className=' grid grid-cols-2 lg:flex gap-20'>
             <div className="md:w-1/4 ">
               <h1 className="text-xl font-light mb-4">COMPANY</h1>
               <ul className="text-sm">
@@ -465,14 +465,11 @@ const main = () => {
           </div>
         </div>
         <hr className=' bg-black opacity-10 h-1 w-5/6 justify-center m-auto  '></hr>
-        <div className='flex justify-between text-center mx-32 py-5'>
-          <h1 className='text-black opacity-60 text-center'> © 2000-2021, All rights reserved</h1>
-          <img
-            src={cards}
-            alt="Group 8"
-            className=" h-16"
-          />
+        <div className='block lg:flex justify-between text-center mx-4 sm:mx-32 py-5'>
+          <h1 className='text-black font-thin opacity-60'>Shop.tej © 2000-2021, All rights reserved</h1>
+          <img src={cards} alt="Accepted Cards" className="h-16" />
         </div>
+
 
       </footer>
 
