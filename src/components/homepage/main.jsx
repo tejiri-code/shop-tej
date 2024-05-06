@@ -42,8 +42,8 @@ const main = () => {
           <h1 className=" text-4xl lg:text-7xl font-extrabold text-left pb-6 ">FIND CLOTHES<br /> THAT MATCHES<br /> YOUR STYLE</h1>
           <p className="text-left text-black opacity-60 text-xs lg:text-xl  mt-2 pb-5">Browse through our diverse range of meticulously crafted<br /> garments, designed to bring out your individuality and<br /> cater to your sense of style.</p>
           <button className='border border-black w-full lg:w-fit px-8 text-white font-extralight bg-black py-2 rounded-3xl'>Shop Now</button>
-          <div className='flex my-5 flex-wrap'>
-            <div className='flex'>
+          <div className='flex my-5  flex-wrap'>
+            <div className='flex mx-auto'>
               <div>
                 <h1 className='lg:text-3xl text-xl font-bold pt-5'>200+</h1>
                 <p className=' text-black font-thin opacity-60'> International Brands</p>
@@ -54,7 +54,7 @@ const main = () => {
               </div>
             </div>
 
-            <div className='flex'>
+            <div className='flex '>
               <div>
                 <h1 className='lg:text-3xl text-xl font-bold pt-5'>2,000+</h1>
                 <p className=' text-black font-thin opacity-60'> High-Quality Products</p>
