@@ -33,20 +33,20 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const main = () => {
   return (
-    <div className=' '>
+    <div className=' overflow-x-hidden '>
 
       <Navbar />
 
-      <div className='bg-[#F2F0F1]  flex object-fill pt-5'>
+      <div className='bg-[#F2F0F1] block lg:flex object-fill pt-5'>
         <div className='lg:w-1/2 w-fit px-2 lg:px-5 text-wrap m-auto gap-8'>
-          <h1 className=" text-4xl lg:text-7xl font-extrabold text-left pb-6 ">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+          <h1 className=" text-4xl lg:text-7xl font-extrabold text-left pb-6 ">FIND CLOTHES<br /> THAT MATCHES<br /> YOUR STYLE</h1>
           <p className="text-left text-black opacity-60 text-xs lg:text-xl  mt-2 pb-5">Browse through our diverse range of meticulously crafted<br /> garments, designed to bring out your individuality and<br /> cater to your sense of style.</p>
           <button className='border border-black w-full lg:w-fit px-8 text-white font-extralight bg-black py-2 rounded-3xl'>Shop Now</button>
-          <div className='flex flex-wrap'>
+          <div className='flex my-5 flex-wrap'>
             <div className='flex'>
               <div>
-                <h1 className='text-3xl font-bold pt-5'>200+</h1>
-                <p className=' text-black opacity-60'> International Brands</p>
+                <h1 className='lg:text-3xl text-xl font-bold pt-5'>200+</h1>
+                <p className=' text-black font-thin opacity-60'> International Brands</p>
               </div>
               <div className=' gap-4 px-4 pt-5'>
                 <div className='border  bg-center pt-5 border-black opacity-10 w-1/4 h-16  rounded-lg'>
@@ -56,8 +56,8 @@ const main = () => {
 
             <div className='flex'>
               <div>
-                <h1 className='text-3xl font-bold pt-5'>2,000+</h1>
-                <p className=' text-black opacity-60'> High-Quality Products</p>
+                <h1 className='lg:text-3xl text-xl font-bold pt-5'>2,000+</h1>
+                <p className=' text-black font-thin opacity-60'> High-Quality Products</p>
               </div>
               <div className='hidden lg:flex gap-4 px-4 pt-5'>
                 <div className='border  bg-center pt-5 border-black opacity-10 w-1/4 h-16  rounded-lg'>
@@ -66,8 +66,8 @@ const main = () => {
             </div>
             <div className='flex justify-center w-full lg:w-fit  lg:justify-start'>
               <div>
-                <h1 className='text-3xl font-bold pt-5'>30,000+</h1>
-                <p className=' text-black opacity-60'> Happy Customers</p>
+                <h1 className='lg:text-3xl text-xl  font-bold pt-5'>30,000+</h1>
+                <p className=' font-thin text-black opacity-60'> Happy Customers</p>
               </div>
               <div className=' hidden lg:flex gap-4 px-4 pt-5'>
                 <div className='border  bg-center pt-5 border-black opacity-10 w-1/4 h-16  rounded-lg'>
@@ -76,7 +76,7 @@ const main = () => {
             </div>
           </div>
         </div>
-        <div className='object-cover lg:flex hidden'>
+        <div className='object-cover flex '>
           <img
             src={girl}
             alt="Group 8"
@@ -133,14 +133,14 @@ const main = () => {
               alt="Green T-Shirt"
               className="rounded-lg mx-auto"
             />
-            <h1 className='font-semibold'>T-SHIRT WITH TAPE DETAILS</h1>
+            <h1 className='text-xs lg:text-base font-semibold'>T-SHIRT WITH TAPE DETAILS</h1>
             <div className='flex justify-center'>
               <FaStar size={25} color='#FFC633' />
               <FaStar size={25} color='#FFC633' />
               <FaStar size={25} color='#FFC633' />
               <FaStar size={25} color='#FFC633' />
               <FaStarHalf size={25} color='#FFC633' />
-              <h1 className='font-thin'>4.5/5</h1>
+              <h1 className=' font-thin'>4.5/5</h1>
             </div>
             <h1 className='font-bold'>$120</h1>
           </div>
@@ -151,7 +151,7 @@ const main = () => {
               alt="Skinny Fit Jeans"
               className="rounded-lg mx-auto"
             />
-            <h1 className='font-semibold'>SKINNY FIT JEANS</h1>
+            <h1 className='text-xs lg:text-base font-semibold'>SKINNY FIT JEANS</h1>
             <div className='flex justify-center'>
               <FaStar size={25} color='#FFC633' />
               <FaStar size={25} color='#FFC633' />
@@ -223,7 +223,7 @@ const main = () => {
               alt="Vertical Striped Shirt"
               className="rounded-lg mx-auto"
             />
-            <h1 className='font-semibold'>VERTICAL STRIPED SHIRT</h1>
+            <h1 className='font-semibold text-xs lg:text-base'>VERTICAL STRIPED SHIRT</h1>
             <div className='flex justify-center'>
               <FaStar size={25} color='#FFC633' />
               <FaStar size={25} color='#FFC633' />
@@ -245,7 +245,7 @@ const main = () => {
               alt="Courage Graphic T-Shirt"
               className="rounded-lg mx-auto"
             />
-            <h1 className='font-semibold'>COURAGE GRAPHIC T-SHIRT</h1>
+            <h1 className='font-semibold text-xs lg:text-base'>COURAGE GRAPHIC T-SHIRT</h1>
             <div className='flex justify-center'>
               <FaStar size={25} color='#FFC633' />
               <FaStar size={25} color='#FFC633' />
@@ -392,7 +392,7 @@ const main = () => {
         <div className="container mx-auto flex flex-col md:flex-row px-6 py-24 md:py-24">
           <div className="md:w-1/3 mb-6 md:mb-0 md:mr-8">
             <Link className="text-2xl  flex pb-5 font-semibold">
-              <h1 className="font-serif">SHOP.TEJ</h1>{" "}
+              <h1 className="font-extrabold">SHOP.TEJ</h1>{" "}
             </Link>
             <p className="text-sm text-black mb-6 opacity-60">
               We have clothes that suits your style and <br /> which you’re proud to wear. From <br />women to men.

@@ -51,7 +51,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 items-start lg:px-1">
         <div className="py-3 flex justify-between items-center">
-          <div className="lg:hidden mt-4">
+          <div className="lg:hidden ">
             <button
               onClick={toggleDropdown}
               className="text-[#000] focus:outline-none"
@@ -75,9 +75,9 @@ const Navbar = () => {
           <div className="flex ">
             <Link
               to="/"
-              className="text-3xl text-[#000] flex  ml-5 font-semibold"
+              className="lg:text-3xl text-xl text-[#000] flex  -ml-20  lg:ml-5 font-semibold"
             >
-              <h1 className="font-serif">Shop.Tej</h1>{" "}
+              <h1 className=" text-left font-extrabold">SHOP.TEJ</h1>{" "}
 
             </Link>
           </div>
@@ -120,7 +120,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="flex">
+          <div className="flex gap-2">
             {/* <Link to="/signup">
               <button className={`font-semibold px-4 py-1`}>Sign Up</button>
 
@@ -131,7 +131,7 @@ const Navbar = () => {
               className="rounded-full w-8  lg:w-12 h-8 lg:h-8 bg-[#fff]   flex lg:hidden items-center justify-center"
             >
               <FaSearch
-                size={25} />
+                size={20} />
             </div>
             <div
               // icon={<FaUser />}
@@ -139,14 +139,15 @@ const Navbar = () => {
               className="rounded-full w-8  lg:w-12 h-8 lg:h-8 bg-[#fff]   flex items-center justify-center"
             >
               <FaShoppingCart
-                size={25} />
+                size={20} />
             </div>
             <div
               // icon={<FaUser />}
               alt="profile"
               className="rounded-full w-8  lg:w-8 h-8 lg:h-8 bg-[#fff] border border-black flex items-center justify-center"
             >
-              <FaUser />
+              <FaUser
+                size={20} />
             </div>
             {/* <Link to="/login">
               <button
@@ -160,7 +161,7 @@ const Navbar = () => {
           </div>
 
           {isDropdownOpen && (
-            <div className="lg:hidden fixed top-0 right-0 h-full w-4/5 bg-white shadow-md p-4">
+            <div className="lg:hidden absolute z-10  top-0 right-0 h-full w-4/5 bg-white shadow-md p-4">
               <div className="flex flex-col space-y-6">
                 <Link
                   to="/"
