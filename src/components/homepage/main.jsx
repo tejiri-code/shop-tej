@@ -43,7 +43,7 @@ const main = () => {
           <p className="text-left text-black opacity-60 text-xs lg:text-xl  mt-2 pb-5">Browse through our diverse range of meticulously crafted<br /> garments, designed to bring out your individuality and<br /> cater to your sense of style.</p>
           <button className='border border-black w-full lg:w-fit px-8 text-white font-extralight bg-black py-2 rounded-3xl'>Shop Now</button>
           <div className='flex my-5  flex-wrap'>
-            <div className='flex mx-auto'>
+            <div className='flex mx-auto lg:mx-0'>
               <div>
                 <h1 className='lg:text-3xl text-xl font-bold pt-5'>200+</h1>
                 <p className=' text-black font-thin opacity-60'> International Brands</p>
